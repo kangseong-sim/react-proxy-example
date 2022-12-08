@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import CreateTodo from './components todos/CreateTodo';
 import TodoTable from './components todos/TodoTable';
 import { getAllTodos, createTodo } from './services/TodoService';
-import DisplayBoards from './components todos/DisplayBoard';
+import DisplayBoards from './components todos/DisplayBoards';
 
 function App () {
 
@@ -106,7 +106,7 @@ function App () {
           handleSubmit={handleSubmit}
           />
         <DisplayBoards 
-          numberOftTodos={numberOfTodos} 
+          numberOfTodos={numberOfTodos}
           getAllTodo={getAllTodo} 
           />
         <TodoTable todos={todos} />
